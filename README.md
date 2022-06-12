@@ -25,4 +25,7 @@ Contains angles used in our computations.
 File necessary for compiling `cython_functions`
 
 `all_code_jupyter`
-Contains all above in as a Jupyter notebook (easier to compile)
+Contains all above in as a Jupyter notebook (easier to compile). Note that FFTW package does not work there.
+
+## Notes
+- FFTW package needs a wrapper to be used with python. The implementation of FFTW has been done on HPC Apocrita (and in the code) by the team of Software Research Engineers from QMUL
